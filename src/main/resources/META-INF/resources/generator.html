@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -15,12 +15,27 @@
 
     <div class="container">
         <div class="left-column">
-            <p class="lead">Générez document d'architecture technique afin de répondre rapidement et efficacemet à une avant-vente.</p>
+            <form 
+            action="/technical-architecture-document" 
+            method="POST"
+            enctype="multipart/form-data"
+            >
+                <input type="submit"/>
+                <p class="lead">Générer un DAT</p>
 
-            <h2>Générateur</h2>
+                <h2>Format de sortie</h2>
+              <select name="outputType">
+                  <option value="markdown" selected="true">Markdown</option>
+              </select>
 
-            <ul><li><a href="generator.html">Générateur</a></li></ul>
+                <h2>What can I do from here?</h2>
 
+                <h2>Do you like Quarkus?</h2>
+
+                <h2>How do I get rid of this page?</h2>
+
+                <input type="submit"/>
+            </form>
         </div>
         <div class="right-column">
             <div class="right-section">
@@ -30,12 +45,6 @@
                     <li>ArtifactId: dat-generator</li>
                     <li>Version: 1.0.0-SNAPSHOT</li>
                     <li>Quarkus Version: 1.6.1.Final</li>
-                    <li>Repo Github :
-                        <a href="https://github.com/marc-bouvier/dat-generator"
-                        target="_blank">
-                            marc-bouvier/dat-generator
-                        </a>
-                    </li>
                 </ul>
             </div>
             <div class="right-section">
