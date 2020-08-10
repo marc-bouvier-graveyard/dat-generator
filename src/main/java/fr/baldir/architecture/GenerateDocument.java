@@ -7,8 +7,9 @@ import org.jboss.resteasy.annotations.providers.multipart.PartType;
 
 public class GenerateDocument {
 
-    @FormParam("outputType")
-    @PartType(MediaType.TEXT_PLAIN)
-    public String outputType;
+  @FormParam("outputType")
+  @PartType(MediaType.TEXT_PLAIN)
+  public String outputType;
+  public String author;
 
 }
