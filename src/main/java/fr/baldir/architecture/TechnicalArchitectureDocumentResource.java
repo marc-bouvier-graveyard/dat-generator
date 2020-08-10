@@ -37,6 +37,7 @@ public class TechnicalArchitectureDocumentResource {
 
     StringBuilder builder = new StringBuilder();
     builder.append(header.data("author", command.author).render());
+    builder.append("\n");
     builder.append(intro.data("test", command.outputType).render());
     return builder.toString();
   }
