@@ -3,7 +3,7 @@ package fr.baldir.architecture;
 import io.quarkus.test.junit.NativeImageTest;
 
 @NativeImageTest
-public class NativeExampleResourceIT extends ExampleResourceTest {
+public class TechnicalArchitectureDocumentResourceIT extends TechnicalArchitectureDocumentResourceTest {
 
     // Execute the same tests but in native mode.
 }

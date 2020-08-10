@@ -13,7 +13,7 @@ import org.jboss.resteasy.annotations.providers.multipart.MultipartForm;
 import io.quarkus.qute.Template;
 
 @Path("/technical-architecture-document")
-public class TechnicalArchitectureDocument {
+public class TechnicalArchitectureDocumentResource {
 
   @Inject
   Template header;
