@@ -4,6 +4,10 @@ Ce document présente l’architecture du système sous différents angles, chac
 à une vue décrivant un aspect de ce système. Ces vues indiquent les décisions significatives
 prises concernant l’architecture du système.
 
-## Portée
+## Périmètre / Portée
 
 Ce document est destine aux analystes et aux concepteurs.
+
+## Architecture générale
+
+TODO : Diagramme d'architecture générale (C4 Context)
