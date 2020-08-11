@@ -11,3 +11,14 @@ Ce document est destine aux analystes et aux concepteurs.
 ## Architecture générale
 
 TODO : Diagramme d'architecture générale (C4 Context)
+
+## Ecosystème existant
+
+TODO : décrire le contexte dans lequel doit s'inscrire l'applicaiton (en général fourni par le client).
+Diagramme si nécessaire.
+
+TODO : Récupérer un certain nombre de contraintes
+- synchrone / asynchrone
+- sécurité
+- type de données / confidentialité / traçabilité
+- d'où proviennent les données / quelles sont les sources de vérité
